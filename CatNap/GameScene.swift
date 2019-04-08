@@ -94,7 +94,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         SKTAudio.sharedInstance().pauseBackgroundMusic()
         run(SKAction.playSoundFileNamed("win.mp3", waitForCompletion: false))
         inGameMessage(text: "Nice job!")
-        //perform(#selector(newGame), with: nil, afterDelay: 3)
+        perform(#selector(newGame), with: nil, afterDelay: 3)
         catNode.curlAt(scenePoint: bedNode.position)
     }
     
