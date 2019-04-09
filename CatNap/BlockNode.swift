@@ -11,7 +11,7 @@ import SpriteKit
 class BlockNode: SKSpriteNode, CustomNodeEvents, InteractiveNode {
     func didMoveToScene() {
         isUserInteractionEnabled = true
-        physicsBody!.collisionBitMask = PhysicsCategory.Seesaw | PhysicsCategory.Edge
+        physicsBody!.collisionBitMask = PhysicsCategory.Seesaw | PhysicsCategory.Edge | PhysicsCategory.Block
     }
     
     func interact() {
