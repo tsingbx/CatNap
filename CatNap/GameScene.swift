@@ -96,6 +96,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func lose() {
+        if currentLevel > 1 {
+            currentLevel -= 1
+        }
         playable = false
         SKTAudio.sharedInstance().pauseBackgroundMusic()
         run(SKAction.playSoundFileNamed("lose.mp3", waitForCompletion: false))
@@ -105,6 +108,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func win() {
+        if currentLevel < 3 {
+            currentLevel += 1
+        }
         playable = false
         SKTAudio.sharedInstance().pauseBackgroundMusic()
         run(SKAction.playSoundFileNamed("win.mp3", waitForCompletion: false))
