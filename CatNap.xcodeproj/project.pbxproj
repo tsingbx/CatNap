@@ -46,12 +46,19 @@
 		A2BB9C642255ED0700C5AF92 /* cat_curlup3_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BB9C632255ED0700C5AF92 /* cat_curlup3_image.png */; };
 		A2BB9C662255ED8600C5AF92 /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2BB9C652255ED8600C5AF92 /* CatWakeUp.sks */; };
 		A2BB9C682255EDEE00C5AF92 /* cat_awake_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2BB9C672255EDED00C5AF92 /* cat_awake_image.png */; };
+		A2D86581225B7D2500AD8E45 /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2D86580225B7D2500AD8E45 /* Level2.sks */; };
+		A2D86583225B7F6F00AD8E45 /* spring_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D86582225B7F6F00AD8E45 /* spring_image.png */; };
+		A2D86585225B800E00AD8E45 /* SpringNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D86584225B800E00AD8E45 /* SpringNode.swift */; };
+		A2D86587225C3C6300AD8E45 /* hook_base_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D86586225C3C6300AD8E45 /* hook_base_image.png */; };
+		A2D86589225C3CF500AD8E45 /* HookNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D86588225C3CF500AD8E45 /* HookNode.swift */; };
+		A2D8658B225C3F3100AD8E45 /* hook_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D8658A225C3F3100AD8E45 /* hook_image.png */; };
+		A2D8658D225C3F5F00AD8E45 /* rope_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2D8658C225C3F5F00AD8E45 /* rope_image.png */; };
 		A2EBF7C42254A60500369C83 /* background_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EBF7C32254A60500369C83 /* background_image.png */; };
 		A2EBF7C62254A6C100369C83 /* cat_bed_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EBF7C52254A6C100369C83 /* cat_bed_image.png */; };
 		A2EBF7C82254A74B00369C83 /* wood_vert1_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EBF7C72254A74B00369C83 /* wood_vert1_image.png */; };
 		A2EBF7CA2254A75A00369C83 /* wood_vert2_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A2EBF7C92254A75A00369C83 /* wood_vert2_image.png */; };
 		A2FD89202254A28900B0417C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD891F2254A28900B0417C /* AppDelegate.swift */; };
-		A2FD89222254A28900B0417C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2FD89212254A28900B0417C /* GameScene.sks */; };
+		A2FD89222254A28900B0417C /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = A2FD89212254A28900B0417C /* Level1.sks */; };
 		A2FD89262254A28900B0417C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD89252254A28900B0417C /* GameScene.swift */; };
 		A2FD89282254A28900B0417C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FD89272254A28900B0417C /* GameViewController.swift */; };
 		A2FD892B2254A28900B0417C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FD89292254A28900B0417C /* Main.storyboard */; };
@@ -99,13 +106,20 @@
 		A2BB9C632255ED0700C5AF92 /* cat_curlup3_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_curlup3_image.png; sourceTree = "<group>"; };
 		A2BB9C652255ED8600C5AF92 /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 		A2BB9C672255EDED00C5AF92 /* cat_awake_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_awake_image.png; sourceTree = "<group>"; };
+		A2D86580225B7D2500AD8E45 /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		A2D86582225B7F6F00AD8E45 /* spring_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spring_image.png; sourceTree = "<group>"; };
+		A2D86584225B800E00AD8E45 /* SpringNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringNode.swift; sourceTree = "<group>"; };
+		A2D86586225C3C6300AD8E45 /* hook_base_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook_base_image.png; sourceTree = "<group>"; };
+		A2D86588225C3CF500AD8E45 /* HookNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookNode.swift; sourceTree = "<group>"; };
+		A2D8658A225C3F3100AD8E45 /* hook_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook_image.png; sourceTree = "<group>"; };
+		A2D8658C225C3F5F00AD8E45 /* rope_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rope_image.png; sourceTree = "<group>"; };
 		A2EBF7C32254A60500369C83 /* background_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_image.png; sourceTree = "<group>"; };
 		A2EBF7C52254A6C100369C83 /* cat_bed_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_bed_image.png; sourceTree = "<group>"; };
 		A2EBF7C72254A74B00369C83 /* wood_vert1_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_vert1_image.png; sourceTree = "<group>"; };
 		A2EBF7C92254A75A00369C83 /* wood_vert2_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_vert2_image.png; sourceTree = "<group>"; };
 		A2FD891C2254A28900B0417C /* CatNap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FD891F2254A28900B0417C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2FD89212254A28900B0417C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A2FD89212254A28900B0417C /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
 		A2FD89252254A28900B0417C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A2FD89272254A28900B0417C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A2FD892A2254A28900B0417C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,10 +163,11 @@
 		A2BB9C412255B51100C5AF92 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				A2FD89212254A28900B0417C /* GameScene.sks */,
+				A2FD89212254A28900B0417C /* Level1.sks */,
 				A2BB9C422255B57300C5AF92 /* Cat.sks */,
 				A2BB9C5D2255EC0500C5AF92 /* CatCurl.sks */,
 				A2BB9C652255ED8600C5AF92 /* CatWakeUp.sks */,
+				A2D86580225B7D2500AD8E45 /* Level2.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -173,12 +188,16 @@
 			isa = PBXGroup;
 			children = (
 				A2BB9C5F2255EC6300C5AF92 /* cat_curlup1_image.png */,
+				A2D86582225B7F6F00AD8E45 /* spring_image.png */,
 				A2BB9C672255EDED00C5AF92 /* cat_awake_image.png */,
 				A2BB9C612255EC7600C5AF92 /* cat_curlup2_image.png */,
 				A2BB9C632255ED0700C5AF92 /* cat_curlup3_image.png */,
+				A2D86586225C3C6300AD8E45 /* hook_base_image.png */,
 				A2BB9C4C2255B8E700C5AF92 /* cat_eyes_image.png */,
+				A2D8658A225C3F3100AD8E45 /* hook_image.png */,
 				A2BB9C592255E99100C5AF92 /* cat_eyes1_image.png */,
 				A2BB9C5B2255E9B800C5AF92 /* cat_eyes2_image.png */,
+				A2D8658C225C3F5F00AD8E45 /* rope_image.png */,
 				A2BB9C462255B68000C5AF92 /* cat_head_image.png */,
 				A21E4E72225B3719004F1E5C /* cat_body_outline_image.png */,
 				A2BB9C442255B65500C5AF92 /* cat_body_image.png */,
@@ -228,6 +247,8 @@
 				A2FD892C2254A28900B0417C /* Assets.xcassets */,
 				A2FD892E2254A28900B0417C /* LaunchScreen.storyboard */,
 				A2FD89312254A28900B0417C /* Info.plist */,
+				A2D86584225B800E00AD8E45 /* SpringNode.swift */,
+				A2D86588225C3CF500AD8E45 /* HookNode.swift */,
 			);
 			path = CatNap;
 			sourceTree = "<group>";
@@ -295,7 +316,7 @@
 				A2BB9C492255B77800C5AF92 /* cat_tail_image.png in Resources */,
 				A2EBF7C42254A60500369C83 /* background_image.png in Resources */,
 				A2BB9C5C2255E9B800C5AF92 /* cat_eyes2_image.png in Resources */,
-				A2FD89222254A28900B0417C /* GameScene.sks in Resources */,
+				A2FD89222254A28900B0417C /* Level1.sks in Resources */,
 				A2BB9C4B2255B84A00C5AF92 /* cat_mouth_image.png in Resources */,
 				A2EBF7C82254A74B00369C83 /* wood_vert1_image.png in Resources */,
 				A2EBF7C62254A6C100369C83 /* cat_bed_image.png in Resources */,
@@ -309,16 +330,21 @@
 				A2BB9C472255B68000C5AF92 /* cat_head_image.png in Resources */,
 				A21E4E73225B3719004F1E5C /* cat_body_outline_image.png in Resources */,
 				A2BB9C432255B57300C5AF92 /* Cat.sks in Resources */,
+				A2D86581225B7D2500AD8E45 /* Level2.sks in Resources */,
 				A2BB9C402255AD4A00C5AF92 /* cat_sleepy_image.png in Resources */,
 				A2BB9C5E2255EC0500C5AF92 /* CatCurl.sks in Resources */,
 				A21E4E89225B385F004F1E5C /* readme.md in Resources */,
 				A2BB9C552255E70300C5AF92 /* pop.mp3 in Resources */,
+				A2D86583225B7F6F00AD8E45 /* spring_image.png in Resources */,
 				A2BB9C562255E70300C5AF92 /* win.mp3 in Resources */,
 				A2BB9C682255EDEE00C5AF92 /* cat_awake_image.png in Resources */,
 				A2FD892D2254A28900B0417C /* Assets.xcassets in Resources */,
 				A2BB9C452255B65500C5AF92 /* cat_body_image.png in Resources */,
+				A2D8658D225C3F5F00AD8E45 /* rope_image.png in Resources */,
 				A2BB9C542255E70300C5AF92 /* mrreow.mp3 in Resources */,
 				A2BB9C602255EC6300C5AF92 /* cat_curlup1_image.png in Resources */,
+				A2D8658B225C3F3100AD8E45 /* hook_image.png in Resources */,
+				A2D86587225C3C6300AD8E45 /* hook_base_image.png in Resources */,
 				A2FD89302254A28900B0417C /* LaunchScreen.storyboard in Resources */,
 				A2EBF7CA2254A75A00369C83 /* wood_vert2_image.png in Resources */,
 			);
@@ -334,6 +360,7 @@
 				A2FD89262254A28900B0417C /* GameScene.swift in Sources */,
 				A21E4E92225B48D1004F1E5C /* MessageNode.swift in Sources */,
 				A21E4E86225B385F004F1E5C /* SKAction+Extensions.swift in Sources */,
+				A2D86589225C3CF500AD8E45 /* HookNode.swift in Sources */,
 				A21E4E85225B385F004F1E5C /* SKTTimingFunctions.swift in Sources */,
 				A21E4E83225B385F004F1E5C /* CGVector+Extensions.swift in Sources */,
 				A21E4E8A225B385F004F1E5C /* CGPoint+Extensions.swift in Sources */,
@@ -347,6 +374,7 @@
 				A21E4E6F225B2952004F1E5C /* BedNode.swift in Sources */,
 				A21E4E84225B385F004F1E5C /* Int+Extensions.swift in Sources */,
 				A2FD89282254A28900B0417C /* GameViewController.swift in Sources */,
+				A2D86585225B800E00AD8E45 /* SpringNode.swift in Sources */,
 				A21E4E8E225B385F004F1E5C /* CGFloat+Extensions.swift in Sources */,
 				A21E4E8D225B385F004F1E5C /* Vector3.swift in Sources */,
 				A2FD89202254A28900B0417C /* AppDelegate.swift in Sources */,
