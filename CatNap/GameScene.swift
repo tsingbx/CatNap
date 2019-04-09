@@ -26,6 +26,7 @@ struct PhysicsCategory {
     static let Label: UInt32 = 0b10000 //16
     static let Spring: UInt32 = 0b100000 //32
     static let Hook: UInt32 = 0b1000000 //64
+    static let Seesaw: UInt32 = 0b10000000
 }
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
@@ -97,7 +98,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func lose() {
         if currentLevel > 1 {
-            currentLevel -= 1
+            //currentLevel -= 1
         }
         playable = false
         SKTAudio.sharedInstance().pauseBackgroundMusic()
@@ -108,7 +109,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func win() {
-        if currentLevel < 3 {
+        if currentLevel < 4 {
             currentLevel += 1
         }
         playable = false
