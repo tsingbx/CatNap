@@ -11,7 +11,7 @@ import SpriteKit
 class SeesawNode: SKSpriteNode, CustomNodeEvents {
     func didMoveToScene() {
         physicsBody!.categoryBitMask = PhysicsCategory.Seesaw
-        physicsBody!.collisionBitMask = PhysicsCategory.Cat | PhysicsCategory.Block | PhysicsCategory.Bed
+        physicsBody!.collisionBitMask = PhysicsCategory.Cat | PhysicsCategory.Block
         let cons = SKConstraint.zRotation(SKRange(lowerLimit: -π/6, upperLimit: π/6))
         constraints = [cons]
         let seesawBase = scene?.childNode(withName: "seesawBase")
