@@ -114,6 +114,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         if currentLevel < 6 {
             currentLevel += 1
         }
+        else {
+            currentLevel = 1;
+        }
         playable = false
         SKTAudio.sharedInstance().pauseBackgroundMusic()
         run(SKAction.playSoundFileNamed("win.mp3", waitForCompletion: false))
