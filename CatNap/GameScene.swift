@@ -45,6 +45,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     override func didMove(to view: SKView) {
+        self.isPaused = true
+        self.isPaused = false
         let maxAspectRadio : CGFloat = 16.0/9.0
         let maxAspectRadioHeight : CGFloat = size.width / maxAspectRadio
         let playableMargein: CGFloat = (size.height - maxAspectRadioHeight) / 2
@@ -109,7 +111,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func win() {
-        if currentLevel < 4 {
+        if currentLevel < 6 {
             currentLevel += 1
         }
         playable = false
